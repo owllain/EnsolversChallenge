@@ -1,0 +1,49 @@
+﻿a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+html {
+  font-size: 16px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+/* Colores pastel */
+.text-pastel {
+    font-weight: bold; /* Texto en negrita */
+    color: #FFA07A; /* Light Salmon */
+}
+
+.bg-pastel {
+    background-color: #FFE4B5; /* Moccasin (un color más claro) */
+}
+
+/* Animación para el fondo */
+.bg-pan-left {
+    -webkit-animation: bg-pan-left 12s both; /* Duración de 12 segundos */
+    animation: bg-pan-left 12s both; /* Duración de 12 segundos */
+    background: linear-gradient(90deg, #FFFFCC 50%, #DDDDDD 50%); /* Colores más claros y traslúcidos */
+    background-size: 200% 100%;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+/* Estilos generados para la animación bg-pan-left */
+@keyframes bg-pan-left {
+    0% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}

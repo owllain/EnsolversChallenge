@@ -1,0 +1,43 @@
+﻿/* Table.css */
+
+/* Estilo para la tabla */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-size: 1rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.375rem;
+    overflow: hidden;
+}
+
+    /* Estilo para las celdas de encabezado */
+    .table th {
+        text-align: left;
+        background-color: #FFE4B5; /* Amarillo  */
+        color: #333; /* Gris */
+        font-weight: 600;
+        padding: 0.5rem;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    /* Estilo para las celdas de datos */
+    .table td {
+        padding: 0.5rem;
+        border-bottom: 1px solid #e2e8f0;
+    }
+
+    /* Estilo para las filas impares */
+    .table tr:nth-child(odd) {
+        background-color: #f7f7f7; /* Gris más claro */
+    }
+
+    /* Estilo para las filas pares */
+    .table tr:nth-child(even) {
+        background-color: #ffffff; /* Blanco */
+    }
+
+    /* Estilo para las filas al hacer hover */
+    .table tr:hover {
+        background-color: #FFA07A; /* Azul claro */
+    }

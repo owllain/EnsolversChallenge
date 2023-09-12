@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "build": "npm run build"
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
